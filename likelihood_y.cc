@@ -9,7 +9,10 @@ double poisson(double mu, int k) {
     return std::pow(mu, k) * std::exp(-mu) / std::tgamma(k + 1);
 }
 
+<<<<<<< HEAD
 // Calculate the mean of a std::vector<double>
+=======
+>>>>>>> cd3e8758b06c366684f9328b5e848fe6cb5c7377
 double calcmean(std::vector<double> x)
 {
   double result = 0.;
@@ -22,7 +25,10 @@ double calcmean(std::vector<double> x)
   return result / x.size();
 }
 
+<<<<<<< HEAD
 // Calculate the variance of a std::vector<double> given its mean m
+=======
+>>>>>>> cd3e8758b06c366684f9328b5e848fe6cb5c7377
 double calcvar(std::vector<double> x, 
   double m)
 {
